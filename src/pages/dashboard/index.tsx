@@ -201,7 +201,7 @@ export const getServerSideProps: GetServerSideProps = async ({ req }) => {
     return {
       redirect: {
         destination: "/",
-        permanetion: false,
+        permanent: false,
       },
     };
   }
