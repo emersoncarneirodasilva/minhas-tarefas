@@ -25,10 +25,7 @@ const Header = () => {
             </h1>
           </Link>
           {session?.user && (
-            <Link
-              href={`${process.env.NEXT_PUBLIC_URL}/dashboard`}
-              className={styles.link}
-            >
+            <Link href="/dashboard" className={styles.link}>
               Meu Painel
             </Link>
           )}
