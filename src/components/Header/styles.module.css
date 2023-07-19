@@ -38,7 +38,7 @@
   display: flex;
   align-items: center;
   color: rgb(250, 37, 37);
-  transform: rotate(10deg);
+  transform: rotate(12deg);
   transition: all 0.3s ease;
 }
 
