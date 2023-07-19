@@ -36,11 +36,11 @@ const Header = () => {
         ) : session ? (
           <button className={styles.loginButton} onClick={() => signOut()}>
             Olá {session?.user?.name}
-            {/* <img
+            <img
               src={session?.user?.image}
               alt={session?.user?.name}
               className={styles.img}
-            /> */}
+            />
           </button>
         ) : (
           <button
