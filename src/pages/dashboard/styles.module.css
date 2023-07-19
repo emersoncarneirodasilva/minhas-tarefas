@@ -1,0 +1,142 @@
+.container {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #0f0f0f;
+}
+
+.contentForm {
+  max-width: 1024px;
+  width: 100%;
+  padding: 0 18px;
+  padding-bottom: 28px;
+  margin-top: 58px;
+}
+
+.title {
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.checkboxArea {
+  margin: 14px 0;
+}
+
+.checkboxArea label {
+  margin-left: 8px;
+  color: #fff;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.button {
+  font-size: 18px;
+  width: 100%;
+  padding: 12px 0;
+  border: 0;
+  border-radius: 4px;
+  background-color: #3183ff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0066ff;
+  scale: 1.005;
+}
+
+.taskContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  width: 100%;
+  margin: 34px auto 0 auto;
+  padding: 0 18px;
+}
+
+.taskContainer a {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+
+.taskContainer h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 150%;
+  margin-bottom: 14px;
+  padding: 14px;
+  border: 1.5px solid #909090;
+  border-radius: 4px;
+}
+
+.tagContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background-color: #3183ff;
+  color: #fff;
+}
+
+.shareButton {
+  margin: 0 8px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.shareButton:hover {
+  transform: rotate(180deg);
+}
+
+.taskContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.taskContent p {
+  white-space: pre-wrap;
+  transition: all 0.2s ease;
+}
+
+.taskContainer .pTask:hover {
+  color: #3183ff;
+}
+
+.trashButton {
+  margin: 0 8px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.trashButton:hover {
+  scale: 1.07;
+  transform: rotate(13deg);
+}
