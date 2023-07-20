@@ -6,6 +6,7 @@ O projeto foi construído com Next.js, NextAuth, React Icons, TypeScript, Fireba
 
 Construído a partir do curso da Udemy: "NextJS do zero ao avançado na pratica 2023" do professor "Matheus Fraga".
 
+
 ![Captura da Web_20-7-2023_103956_minhas-tarefas-lime vercel app](https://github.com/emersoncarneirodasilva/minhas-tarefas/assets/94311606/9a39dad2-190c-4482-bac8-87e4f360631d)
 
 ![Captura da Web_20-7-2023_104044_minhas-tarefas-lime vercel app](https://github.com/emersoncarneirodasilva/minhas-tarefas/assets/94311606/e303666b-f8ea-4d52-a2cf-a41b0e4065d0)
